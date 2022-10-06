@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'HelveticaNeue';
+}
+
+.parent-div{
+    max-width: 1439px;
+    width: 90%;
+    margin: auto;
+   
+    justify-content: center;
+    background-color: #0A22F4;
+    display: flex   
+}
+.map-area{
+    width: 672px;
+    padding-top:100px;
+}
+.map-area h3{
+    color: #FFFFFF;
+    font-size: 32px;
+    width: 162px;
+    height: 38px;
+}
+.map-area p{
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 463px;
+    height: 99px;
+    padding-top: 30px;
+}
+.tel-{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 70px;
+}
+.number ,.message ,.with-love{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tel- img{
+    width: 70px;
+    height: 70px;
+    padding: 26px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+}
+.contact{
+    width: 767px;
+}
+.map{
+	width: 463px;
+	height: 197px;
+	margin-top: 58px;
+	border-radius: 15px;
+}
+.bottom-line{
+    max-width: 1439px;
+    width: 90%;
+    margin: auto;
+    padding-top: 87px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.with-love img{
+    margin-left: 30px;
+}
+.background{
+    background-color:#0A22F4;
+}
+.input{
+    background-color: #0A22F4;
+    width: 463px;
+    height: 60px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+	color:#FFFFFF;
+	border: none;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.input::placeholder {
+        font-size: 16px;
+        color: #FFFFFF;
+}
+.form-class{
+    padding-top: 123px;
+    display: flex;
+    justify-content: right;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+textarea{
+    margin-top: 40px;
+    height: 140px;
+    resize: none;
+    background-color: #0A22F4;
+    border: none;
+    border-bottom:1px solid #FFFFFF;
+}
+textarea::placeholder{
+    font-size: 16px;
+        color: #FFFFFF;
+}
+.button {
+    align-self: flex-end;
+	margin-top: 40px;
+	width: 151px;
+    height: 55px;
+	background-color: #FFFfFF;
+	border: none;
+	padding: 18px,34px;
+	cursor: pointer;
+}
+
+
+
+
